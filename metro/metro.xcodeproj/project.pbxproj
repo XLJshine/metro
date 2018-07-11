@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5E8CDC20F5BD0A00C4D207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CDB20F5BD0A00C4D207 /* AppDelegate.m */; };
+		EF5E8CDF20F5BD0A00C4D207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CDE20F5BD0A00C4D207 /* ViewController.m */; };
+		EF5E8CE220F5BD0A00C4D207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5E8CE020F5BD0A00C4D207 /* Main.storyboard */; };
+		EF5E8CE420F5BD0F00C4D207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5E8CE320F5BD0F00C4D207 /* Assets.xcassets */; };
+		EF5E8CE720F5BD0F00C4D207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5E8CE520F5BD0F00C4D207 /* LaunchScreen.storyboard */; };
+		EF5E8CEA20F5BD0F00C4D207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CE920F5BD0F00C4D207 /* main.m */; };
+		EF5E8CF420F5BD0F00C4D207 /* metroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CF320F5BD0F00C4D207 /* metroTests.m */; };
+		EF5E8CFF20F5BD0F00C4D207 /* metroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CFE20F5BD0F00C4D207 /* metroUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5E8CF020F5BD0F00C4D207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5E8CCF20F5BD0A00C4D207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5E8CD620F5BD0A00C4D207;
+			remoteInfo = metro;
+		};
+		EF5E8CFB20F5BD0F00C4D207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5E8CCF20F5BD0A00C4D207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5E8CD620F5BD0A00C4D207;
+			remoteInfo = metro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5E8CD720F5BD0A00C4D207 /* metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5E8CDA20F5BD0A00C4D207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5E8CDB20F5BD0A00C4D207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5E8CDD20F5BD0A00C4D207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5E8CDE20F5BD0A00C4D207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5E8CE120F5BD0A00C4D207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5E8CE320F5BD0F00C4D207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5E8CE620F5BD0F00C4D207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5E8CE820F5BD0F00C4D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5E8CE920F5BD0F00C4D207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5E8CEF20F5BD0F00C4D207 /* metroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5E8CF320F5BD0F00C4D207 /* metroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metroTests.m; sourceTree = "<group>"; };
+		EF5E8CF520F5BD0F00C4D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5E8CFA20F5BD0F00C4D207 /* metroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5E8CFE20F5BD0F00C4D207 /* metroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metroUITests.m; sourceTree = "<group>"; };
+		EF5E8D0020F5BD0F00C4D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5E8CD420F5BD0A00C4D207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E8CEC20F5BD0F00C4D207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E8CF720F5BD0F00C4D207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5E8CCE20F5BD0A00C4D207 = {
+			isa = PBXGroup;
+			children = (
+				EF5E8CD920F5BD0A00C4D207 /* metro */,
+				EF5E8CF220F5BD0F00C4D207 /* metroTests */,
+				EF5E8CFD20F5BD0F00C4D207 /* metroUITests */,
+				EF5E8CD820F5BD0A00C4D207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5E8CD820F5BD0A00C4D207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8CD720F5BD0A00C4D207 /* metro.app */,
+				EF5E8CEF20F5BD0F00C4D207 /* metroTests.xctest */,
+				EF5E8CFA20F5BD0F00C4D207 /* metroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5E8CD920F5BD0A00C4D207 /* metro */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8CDA20F5BD0A00C4D207 /* AppDelegate.h */,
+				EF5E8CDB20F5BD0A00C4D207 /* AppDelegate.m */,
+				EF5E8CDD20F5BD0A00C4D207 /* ViewController.h */,
+				EF5E8CDE20F5BD0A00C4D207 /* ViewController.m */,
+				EF5E8CE020F5BD0A00C4D207 /* Main.storyboard */,
+				EF5E8CE320F5BD0F00C4D207 /* Assets.xcassets */,
+				EF5E8CE520F5BD0F00C4D207 /* LaunchScreen.storyboard */,
+				EF5E8CE820F5BD0F00C4D207 /* Info.plist */,
+				EF5E8CE920F5BD0F00C4D207 /* main.m */,
+			);
+			path = metro;
+			sourceTree = "<group>";
+		};
+		EF5E8CF220F5BD0F00C4D207 /* metroTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8CF320F5BD0F00C4D207 /* metroTests.m */,
+				EF5E8CF520F5BD0F00C4D207 /* Info.plist */,
+			);
+			path = metroTests;
+			sourceTree = "<group>";
+		};
+		EF5E8CFD20F5BD0F00C4D207 /* metroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5E8CFE20F5BD0F00C4D207 /* metroUITests.m */,
+				EF5E8D0020F5BD0F00C4D207 /* Info.plist */,
+			);
+			path = metroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5E8CD620F5BD0A00C4D207 /* metro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5E8D0320F5BD0F00C4D207 /* Build configuration list for PBXNativeTarget "metro" */;
+			buildPhases = (
+				EF5E8CD320F5BD0A00C4D207 /* Sources */,
+				EF5E8CD420F5BD0A00C4D207 /* Frameworks */,
+				EF5E8CD520F5BD0A00C4D207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metro;
+			productName = metro;
+			productReference = EF5E8CD720F5BD0A00C4D207 /* metro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5E8CEE20F5BD0F00C4D207 /* metroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5E8D0620F5BD0F00C4D207 /* Build configuration list for PBXNativeTarget "metroTests" */;
+			buildPhases = (
+				EF5E8CEB20F5BD0F00C4D207 /* Sources */,
+				EF5E8CEC20F5BD0F00C4D207 /* Frameworks */,
+				EF5E8CED20F5BD0F00C4D207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5E8CF120F5BD0F00C4D207 /* PBXTargetDependency */,
+			);
+			name = metroTests;
+			productName = metroTests;
+			productReference = EF5E8CEF20F5BD0F00C4D207 /* metroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5E8CF920F5BD0F00C4D207 /* metroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5E8D0920F5BD0F00C4D207 /* Build configuration list for PBXNativeTarget "metroUITests" */;
+			buildPhases = (
+				EF5E8CF620F5BD0F00C4D207 /* Sources */,
+				EF5E8CF720F5BD0F00C4D207 /* Frameworks */,
+				EF5E8CF820F5BD0F00C4D207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5E8CFC20F5BD0F00C4D207 /* PBXTargetDependency */,
+			);
+			name = metroUITests;
+			productName = metroUITests;
+			productReference = EF5E8CFA20F5BD0F00C4D207 /* metroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5E8CCF20F5BD0A00C4D207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cssweb;
+				TargetAttributes = {
+					EF5E8CD620F5BD0A00C4D207 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF5E8CEE20F5BD0F00C4D207 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF5E8CD620F5BD0A00C4D207;
+					};
+					EF5E8CF920F5BD0F00C4D207 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF5E8CD620F5BD0A00C4D207;
+					};
+				};
+			};
+			buildConfigurationList = EF5E8CD220F5BD0A00C4D207 /* Build configuration list for PBXProject "metro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5E8CCE20F5BD0A00C4D207;
+			productRefGroup = EF5E8CD820F5BD0A00C4D207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5E8CD620F5BD0A00C4D207 /* metro */,
+				EF5E8CEE20F5BD0F00C4D207 /* metroTests */,
+				EF5E8CF920F5BD0F00C4D207 /* metroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5E8CD520F5BD0A00C4D207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5E8CE720F5BD0F00C4D207 /* LaunchScreen.storyboard in Resources */,
+				EF5E8CE420F5BD0F00C4D207 /* Assets.xcassets in Resources */,
+				EF5E8CE220F5BD0A00C4D207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E8CED20F5BD0F00C4D207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E8CF820F5BD0F00C4D207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5E8CD320F5BD0A00C4D207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5E8CDF20F5BD0A00C4D207 /* ViewController.m in Sources */,
+				EF5E8CEA20F5BD0F00C4D207 /* main.m in Sources */,
+				EF5E8CDC20F5BD0A00C4D207 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E8CEB20F5BD0F00C4D207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5E8CF420F5BD0F00C4D207 /* metroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5E8CF620F5BD0F00C4D207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5E8CFF20F5BD0F00C4D207 /* metroUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5E8CF120F5BD0F00C4D207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5E8CD620F5BD0A00C4D207 /* metro */;
+			targetProxy = EF5E8CF020F5BD0F00C4D207 /* PBXContainerItemProxy */;
+		};
+		EF5E8CFC20F5BD0F00C4D207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5E8CD620F5BD0A00C4D207 /* metro */;
+			targetProxy = EF5E8CFB20F5BD0F00C4D207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5E8CE020F5BD0A00C4D207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5E8CE120F5BD0A00C4D207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5E8CE520F5BD0F00C4D207 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5E8CE620F5BD0F00C4D207 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5E8D0120F5BD0F00C4D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5E8D0220F5BD0F00C4D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5E8D0420F5BD0F00C4D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = metro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cssweb.metro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5E8D0520F5BD0F00C4D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = metro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cssweb.metro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF5E8D0720F5BD0F00C4D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = metroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cssweb.metroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metro.app/metro";
+			};
+			name = Debug;
+		};
+		EF5E8D0820F5BD0F00C4D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = metroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cssweb.metroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metro.app/metro";
+			};
+			name = Release;
+		};
+		EF5E8D0A20F5BD0F00C4D207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = metroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cssweb.metroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = metro;
+			};
+			name = Debug;
+		};
+		EF5E8D0B20F5BD0F00C4D207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = metroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cssweb.metroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = metro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5E8CD220F5BD0A00C4D207 /* Build configuration list for PBXProject "metro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5E8D0120F5BD0F00C4D207 /* Debug */,
+				EF5E8D0220F5BD0F00C4D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5E8D0320F5BD0F00C4D207 /* Build configuration list for PBXNativeTarget "metro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5E8D0420F5BD0F00C4D207 /* Debug */,
+				EF5E8D0520F5BD0F00C4D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5E8D0620F5BD0F00C4D207 /* Build configuration list for PBXNativeTarget "metroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5E8D0720F5BD0F00C4D207 /* Debug */,
+				EF5E8D0820F5BD0F00C4D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5E8D0920F5BD0F00C4D207 /* Build configuration list for PBXNativeTarget "metroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5E8D0A20F5BD0F00C4D207 /* Debug */,
+				EF5E8D0B20F5BD0F00C4D207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5E8CCF20F5BD0A00C4D207 /* Project object */;
+}
