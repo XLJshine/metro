@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HCTabBarController.h"
+#import "BaseTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[HCTabBarController alloc] init];
+    self.window.rootViewController = [[BaseTabBarViewController alloc] init];
     
     return YES;
 }

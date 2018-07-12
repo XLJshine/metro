@@ -1,53 +1,27 @@
 //
-//  HCTabBarController.m
-//  jcarea
+//  BaseTabBarViewController.m
+//  metro
 //
-//  Created by 王文 on 2016/12/13.
-//  Copyright © 2016年 com.jcarea. All rights reserved.
+//  Created by 熊良军 on 2018/7/12.
+//  Copyright © 2018年 cssweb. All rights reserved.
 //
 
-#import "HCTabBarController.h"
-//#import "HCNavigationController.h"
+#import "BaseTabBarViewController.h"
 #import "BaseNavigationController.h"
 
-@interface HCTabBarController ()//<HCTabBarDelegate>
-//@property (strong, nonatomic) UIVisualEffectView *visualEffectView;
+@interface BaseTabBarViewController ()
 
 @end
 
-@implementation HCTabBarController
+@implementation BaseTabBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self addChildViewController];
-    /*
-     //添加中间按钮
-    HCTabBar *tabBar = [[HCTabBar alloc] init];
-    tabBar.centerDelegate = self;
-    [self setValue:tabBar forKey:@"tabBar"];
-     */
-}
-
-/*
-//MARK:代理
-- (void)clTabBarCenterButtonClickStart:(HCTabBar *)tabBar centerMenu:(AwesomeMenu *)centerMenu {
-    //毛玻璃
-    UIBlurEffect *blurEffect=[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
-    UIVisualEffectView *visualEffectView=[[UIVisualEffectView alloc]initWithEffect:blurEffect];
-    self.visualEffectView = visualEffectView;
-    [visualEffectView setFrame:self.view.bounds];
-    [self.view insertSubview:visualEffectView belowSubview:tabBar];
     
-//    UIView *coverView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-//    coverView.backgroundColor = [UIColor blackColor];
-//    [self.view insertSubview:coverView belowSubview:tabBar];
 }
 
-- (void)clTabBarCenterButtonClickClose:(HCTabBar *)tabBar centerMenu:(AwesomeMenu *)centerMenu {
-    [self.visualEffectView removeFromSuperview];
-}
-*/
 
 -(void)addChildViewController:(UIViewController *)childController
                         title:(NSString *)title
@@ -61,25 +35,41 @@
     // 设置 tabbarItem 选中状态下的文字颜色(不被系统默认渲染,显示文字自定义颜色)
     NSDictionary *dictHome = [NSDictionary dictionaryWithObject:[UIColor orangeColor] forKey:NSForegroundColorAttributeName];
     [childController.tabBarItem setTitleTextAttributes:dictHome forState:UIControlStateSelected];
-   
+    
     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:childController];
     [self addChildViewController:nav];
 }
+
 - (void)addChildViewController {
     UIViewController *CVC = [[UIViewController alloc] init];
     UIViewController *SVC = [[UIViewController alloc] init];
     UIViewController *PVC = [[UIViewController alloc] init];
     //
-   
+    
     CVC.view.backgroundColor = [UIColor redColor];
     SVC.view.backgroundColor = [UIColor orangeColor];
     PVC.view.backgroundColor = [UIColor whiteColor];
     
-   
+    
     [self addChildViewController:CVC title:@"社区" image:@"tabbar_btn_menu_n" selectImage:@"tabbar_btn_menu_s"];
     [self addChildViewController:SVC title:@"商城" image:@"tabbar_btn_market_n" selectImage:@"tabbar_btn_market_s"];
     [self addChildViewController:PVC title:@"个人" image:@"tabbar_btn_pdata_n" selectImage:@"tabbar_btn_pdata_s"];
     
 }
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

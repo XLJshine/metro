@@ -21,7 +21,9 @@
 //屏幕大小
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
-#define SCREEN_PRO SCREEN_WIDTH/320.0
+#define SCREEN_RATIO_6 SCREEN_WIDTH/375.0  //以iphone6为基础的比例系数
+#define SCREEN_RATIO_5S SCREEN_WIDTH/320.0  //以iphone5s为基础的比例系数
+#define SCREEN_RATIO_6P SCREEN_WIDTH/414.0  //以iphone6P为基础的比例系数
 
 //获取系统版本
 #define IOS_VERSION [[UIDevice currentDevice] systemVersion].floatValue

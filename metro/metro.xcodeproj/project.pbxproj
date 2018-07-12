@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF5AA93720F5D8E500329960 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA92E20F5D8E500329960 /* AwesomeMenuItem.m */; };
-		EF5AA93820F5D8E500329960 /* HCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA92F20F5D8E500329960 /* HCTabBarController.m */; };
-		EF5AA93920F5D8E500329960 /* HCtest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA93020F5D8E500329960 /* HCtest1ViewController.m */; };
-		EF5AA93A20F5D8E500329960 /* HCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA93120F5D8E500329960 /* HCTabBar.m */; };
-		EF5AA93B20F5D8E500329960 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA93220F5D8E500329960 /* AwesomeMenu.m */; };
-		EF5AA93C20F5D8E500329960 /* HCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA93320F5D8E500329960 /* HCNavigationController.m */; };
-		EF5AA93D20F5D8E500329960 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA93520F5D8E500329960 /* UIView+Extension.m */; };
+		EF5735C120F71F5B002F92C0 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5735C020F71F5B002F92C0 /* BaseTabBarViewController.m */; };
 		EF5AA94320F5D9D200329960 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA94120F5D9D200329960 /* BaseViewController.m */; };
 		EF5AA94420F5D9D200329960 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA94220F5D9D200329960 /* BaseNavigationController.m */; };
 		EF5AA96320F5DA4300329960 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EF5AA94720F5DA4200329960 /* LICENSE */; };
@@ -56,20 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF5AA92920F5D8E500329960 /* HCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNavigationController.h; sourceTree = "<group>"; };
-		EF5AA92A20F5D8E500329960 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
-		EF5AA92B20F5D8E500329960 /* HCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCTabBar.h; sourceTree = "<group>"; };
-		EF5AA92C20F5D8E500329960 /* HCtest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCtest1ViewController.h; sourceTree = "<group>"; };
-		EF5AA92D20F5D8E500329960 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		EF5AA92E20F5D8E500329960 /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
-		EF5AA92F20F5D8E500329960 /* HCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCTabBarController.m; sourceTree = "<group>"; };
-		EF5AA93020F5D8E500329960 /* HCtest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCtest1ViewController.m; sourceTree = "<group>"; };
-		EF5AA93120F5D8E500329960 /* HCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCTabBar.m; sourceTree = "<group>"; };
-		EF5AA93220F5D8E500329960 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
-		EF5AA93320F5D8E500329960 /* HCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNavigationController.m; sourceTree = "<group>"; };
-		EF5AA93420F5D8E500329960 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
-		EF5AA93520F5D8E500329960 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		EF5AA93620F5D8E500329960 /* HCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCTabBarController.h; sourceTree = "<group>"; };
+		EF5735BF20F71F5B002F92C0 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		EF5735C020F71F5B002F92C0 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		EF5AA93F20F5D9D200329960 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		EF5AA94020F5D9D200329960 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		EF5AA94120F5D9D200329960 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -149,30 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				EF5AA94620F5DA4200329960 /* Masonry */,
-				EF5AA92820F5D8E500329960 /* XYTabbar */,
 			);
 			path = Thirdparty;
-			sourceTree = "<group>";
-		};
-		EF5AA92820F5D8E500329960 /* XYTabbar */ = {
-			isa = PBXGroup;
-			children = (
-				EF5AA92A20F5D8E500329960 /* AwesomeMenu.h */,
-				EF5AA93220F5D8E500329960 /* AwesomeMenu.m */,
-				EF5AA93420F5D8E500329960 /* AwesomeMenuItem.h */,
-				EF5AA92E20F5D8E500329960 /* AwesomeMenuItem.m */,
-				EF5AA92920F5D8E500329960 /* HCNavigationController.h */,
-				EF5AA93320F5D8E500329960 /* HCNavigationController.m */,
-				EF5AA92B20F5D8E500329960 /* HCTabBar.h */,
-				EF5AA93120F5D8E500329960 /* HCTabBar.m */,
-				EF5AA93620F5D8E500329960 /* HCTabBarController.h */,
-				EF5AA92F20F5D8E500329960 /* HCTabBarController.m */,
-				EF5AA92C20F5D8E500329960 /* HCtest1ViewController.h */,
-				EF5AA93020F5D8E500329960 /* HCtest1ViewController.m */,
-				EF5AA92D20F5D8E500329960 /* UIView+Extension.h */,
-				EF5AA93520F5D8E500329960 /* UIView+Extension.m */,
-			);
-			path = XYTabbar;
 			sourceTree = "<group>";
 		};
 		EF5AA93E20F5D99700329960 /* BaseClass */ = {
@@ -183,6 +143,8 @@
 				EF5AA94220F5D9D200329960 /* BaseNavigationController.m */,
 				EF5AA93F20F5D9D200329960 /* BaseViewController.h */,
 				EF5AA94120F5D9D200329960 /* BaseViewController.m */,
+				EF5735BF20F71F5B002F92C0 /* BaseTabBarViewController.h */,
+				EF5735C020F71F5B002F92C0 /* BaseTabBarViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -420,25 +382,19 @@
 				EF5AA96A20F5DA4300329960 /* View+MASAdditions.m in Sources */,
 				EF5AA96D20F5DA4300329960 /* MASViewAttribute.m in Sources */,
 				EF5AA96420F5DA4300329960 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				EF5AA93D20F5D8E500329960 /* UIView+Extension.m in Sources */,
 				EF5E8CDF20F5BD0A00C4D207 /* ViewController.m in Sources */,
 				EF5AA96B20F5DA4300329960 /* MASConstraint.m in Sources */,
 				EF5AA94320F5D9D200329960 /* BaseViewController.m in Sources */,
 				EF5AA96620F5DA4300329960 /* MASCompositeConstraint.m in Sources */,
 				EF5AA96720F5DA4300329960 /* MASConstraintMaker.m in Sources */,
 				EF5AA96520F5DA4300329960 /* ViewController+MASAdditions.m in Sources */,
-				EF5AA93720F5D8E500329960 /* AwesomeMenuItem.m in Sources */,
-				EF5AA93A20F5D8E500329960 /* HCTabBar.m in Sources */,
 				EF5E8CEA20F5BD0F00C4D207 /* main.m in Sources */,
-				EF5AA93820F5D8E500329960 /* HCTabBarController.m in Sources */,
 				EF5AA96820F5DA4300329960 /* MASLayoutConstraint.m in Sources */,
-				EF5AA93C20F5D8E500329960 /* HCNavigationController.m in Sources */,
 				EF5AA94420F5D9D200329960 /* BaseNavigationController.m in Sources */,
 				EF5AA96920F5DA4300329960 /* NSArray+MASAdditions.m in Sources */,
+				EF5735C120F71F5B002F92C0 /* BaseTabBarViewController.m in Sources */,
 				EF5E8CDC20F5BD0A00C4D207 /* AppDelegate.m in Sources */,
 				EF5AA96C20F5DA4300329960 /* MASViewConstraint.m in Sources */,
-				EF5AA93B20F5D8E500329960 /* AwesomeMenu.m in Sources */,
-				EF5AA93920F5D8E500329960 /* HCtest1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
