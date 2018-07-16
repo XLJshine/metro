@@ -7,7 +7,7 @@
 //
 
 #import "SCMainViewController.h"
-
+#import "PayKit.h"
 @interface SCMainViewController ()
 
 @end
