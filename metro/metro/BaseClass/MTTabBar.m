@@ -62,10 +62,14 @@
 
     
      //设置“+”按钮的大小为图片的大小
-     self.addButton.frame = CGRectMake(0, 0,self.addButton.currentBackgroundImage.size.width*2.5, self.addButton.currentBackgroundImage.size.height*2.5);
+     CGFloat buttonW = self.addButton.currentBackgroundImage.size.width*2.5;
+     CGFloat buttonH = self.addButton.currentBackgroundImage.size.height*2.5;
+     self.addButton.frame = CGRectMake(self.center.x - buttonW*0.5, - 17.0,buttonW,buttonH);
      //设置“+”按钮的位置
+     /*
      CGPoint centerPoint = self.center;
-     self.addButton.center = CGPointMake(centerPoint.x, self.frame.size.height * 0.5 - 3 * AddButtonMargin);
+     self.addButton.center = CGPointMake(centerPoint.x, - 1 * AddButtonMargin);*/
+     
      //创建并设置“+”按钮下方的文本为“添加”
      UILabel *addLbl = [[UILabel alloc] init];
      addLbl.text = @"乘车码";
