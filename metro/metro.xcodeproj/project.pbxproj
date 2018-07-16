@@ -30,6 +30,7 @@
 		EF5E8CEA20F5BD0F00C4D207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CE920F5BD0F00C4D207 /* main.m */; };
 		EF5E8CF420F5BD0F00C4D207 /* metroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CF320F5BD0F00C4D207 /* metroTests.m */; };
 		EF5E8CFF20F5BD0F00C4D207 /* metroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CFE20F5BD0F00C4D207 /* metroUITests.m */; };
+		EF66F30820FC3249008B6659 /* MTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F30720FC3249008B6659 /* MTTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		EF5E8CFA20F5BD0F00C4D207 /* metroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5E8CFE20F5BD0F00C4D207 /* metroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = metroUITests.m; sourceTree = "<group>"; };
 		EF5E8D0020F5BD0F00C4D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF66F30620FC3249008B6659 /* MTTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTabBar.h; sourceTree = "<group>"; };
+		EF66F30720FC3249008B6659 /* MTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				EF5AA94120F5D9D200329960 /* BaseViewController.m */,
 				EF5735BF20F71F5B002F92C0 /* BaseTabBarViewController.h */,
 				EF5735C020F71F5B002F92C0 /* BaseTabBarViewController.m */,
+				EF66F30620FC3249008B6659 /* MTTabBar.h */,
+				EF66F30720FC3249008B6659 /* MTTabBar.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 				EF5AA96420F5DA4300329960 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				EF5E8CDF20F5BD0A00C4D207 /* ViewController.m in Sources */,
 				EF5AA96B20F5DA4300329960 /* MASConstraint.m in Sources */,
+				EF66F30820FC3249008B6659 /* MTTabBar.m in Sources */,
 				EF5AA94320F5D9D200329960 /* BaseViewController.m in Sources */,
 				EF5AA96620F5DA4300329960 /* MASCompositeConstraint.m in Sources */,
 				EF5AA96720F5DA4300329960 /* MASConstraintMaker.m in Sources */,
