@@ -8,9 +8,16 @@
 
 #import "BaseTabBarViewController.h"
 #import "BaseNavigationController.h"
+
+#import "SCMainViewController.h"
+#import "AFMainViewController.h"
+#import "CCMainViewController.h"
+#import "SIMainViewController.h"
+#import "PCMainViewController.h"
+
 #import "MTTabBar.h"
 @interface BaseTabBarViewController ()<MTTabBarDelegate>
-@property (nonatomic,strong)MTTabBar *tabBar;
+@property (nonatomic,strong)MTTabBar *mttabBar;
 @end
 
 @implementation BaseTabBarViewController
@@ -24,7 +31,7 @@
     MTTabBar *tabBar = [[MTTabBar alloc] init];
     tabBar.mtTabBarDelegate = self;
     [self setValue:tabBar forKey:@"tabBar"];
-    self.tabBar = tabBar;
+    self.mttabBar = tabBar;
 }
 -(void)addButtonClick:(MTTabBar *)tabBar{
     NSLog(@"中间按钮点击");
@@ -50,33 +57,24 @@
 }
 
 - (void)addChildViewController {
-    UIViewController *CVC = [[UIViewController alloc] init];
-    UIViewController *SVC = [[UIViewController alloc] init];
-    UIViewController *PVC = [[UIViewController alloc] init];
-    UIViewController *SVC1 = [[UIViewController alloc] init];
-    UIViewController *PVC1 = [[UIViewController alloc] init];
+    SCMainViewController *SCVC = [[SCMainViewController alloc] init];
+    AFMainViewController *AFVC = [[AFMainViewController alloc] init];
+    CCMainViewController *CCVC = [[CCMainViewController alloc] init];
+    SIMainViewController *SIVC = [[SIMainViewController alloc] init];
+    PCMainViewController *PCVC = [[PCMainViewController alloc] init];
     
-    //
-    
-    CVC.view.backgroundColor = [UIColor redColor];
-    SVC.view.backgroundColor = [UIColor orangeColor];
-    PVC.view.backgroundColor = [UIColor whiteColor];
-    SVC1.view.backgroundColor = [UIColor orangeColor];
-    PVC1.view.backgroundColor = [UIColor whiteColor];
-    
-    
-    [self addChildViewController:CVC title:@"地铁咨询" image:@"tabbar_btn_menu_n" selectImage:@"tabbar_btn_menu_s"];
-    [self addChildViewController:SVC title:@"失物招领" image:@"tabbar_btn_market_n" selectImage:@"tabbar_btn_market_s"];
-    [self addChildViewController:PVC title:@"站点信息" image:@"tabbar_btn_pdata_n" selectImage:@"tabbar_btn_pdata_s"];
-    [self addChildViewController:SVC1 title:@"个人中心" image:@"tabbar_btn_market_n" selectImage:@"tabbar_btn_market_s"];
-    [self addChildViewController:PVC1 title:@"乘车码" image:@"tabbar_btn_pdata_n" selectImage:@"tabbar_btn_pdata_s"];
+    [self addChildViewController:SCVC title:@"地铁咨询" image:@"tabbar_btn_menu_n" selectImage:@"tabbar_btn_menu_s"];
+    [self addChildViewController:AFVC title:@"失物招领" image:@"tabbar_btn_market_n" selectImage:@"tabbar_btn_market_s"];
+    [self addChildViewController:SIVC title:@"站点信息" image:@"tabbar_btn_pdata_n" selectImage:@"tabbar_btn_pdata_s"];
+    [self addChildViewController:PCVC title:@"个人中心" image:@"tabbar_btn_market_n" selectImage:@"tabbar_btn_market_s"];
+    [self addChildViewController:CCVC title:@"乘车码" image:@"tabbar_btn_pdata_n" selectImage:@"tabbar_btn_pdata_s"];
     
 }
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
-    if (self.tabBar.addButton.selected) {
-        self.tabBar.addButton.selected = !self.tabBar.addButton.selected;
-        self.tabBar.addLabel.textColor = [UIColor grayColor];
+    if (self.mttabBar.addButton.selected) {
+        self.mttabBar.addButton.selected = !self.mttabBar.addButton.selected;
+        self.mttabBar.addLabel.textColor = [UIColor grayColor];
     }
 
 }

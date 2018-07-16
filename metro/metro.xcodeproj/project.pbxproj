@@ -31,6 +31,11 @@
 		EF5E8CF420F5BD0F00C4D207 /* metroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CF320F5BD0F00C4D207 /* metroTests.m */; };
 		EF5E8CFF20F5BD0F00C4D207 /* metroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5E8CFE20F5BD0F00C4D207 /* metroUITests.m */; };
 		EF66F30820FC3249008B6659 /* MTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F30720FC3249008B6659 /* MTTabBar.m */; };
+		EF66F32120FC6774008B6659 /* SCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F32020FC6774008B6659 /* SCMainViewController.m */; };
+		EF66F32420FC67A0008B6659 /* AFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F32320FC67A0008B6659 /* AFMainViewController.m */; };
+		EF66F32720FC67B2008B6659 /* CCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F32620FC67B2008B6659 /* CCMainViewController.m */; };
+		EF66F32A20FC67CE008B6659 /* SIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F32920FC67CE008B6659 /* SIMainViewController.m */; };
+		EF66F32D20FC67E4008B6659 /* PCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66F32C20FC67E4008B6659 /* PCMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +108,16 @@
 		EF5E8D0020F5BD0F00C4D207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF66F30620FC3249008B6659 /* MTTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTabBar.h; sourceTree = "<group>"; };
 		EF66F30720FC3249008B6659 /* MTTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTabBar.m; sourceTree = "<group>"; };
+		EF66F31F20FC6774008B6659 /* SCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMainViewController.h; sourceTree = "<group>"; };
+		EF66F32020FC6774008B6659 /* SCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMainViewController.m; sourceTree = "<group>"; };
+		EF66F32220FC67A0008B6659 /* AFMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMainViewController.h; sourceTree = "<group>"; };
+		EF66F32320FC67A0008B6659 /* AFMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFMainViewController.m; sourceTree = "<group>"; };
+		EF66F32520FC67B2008B6659 /* CCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCMainViewController.h; sourceTree = "<group>"; };
+		EF66F32620FC67B2008B6659 /* CCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMainViewController.m; sourceTree = "<group>"; };
+		EF66F32820FC67CE008B6659 /* SIMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIMainViewController.h; sourceTree = "<group>"; };
+		EF66F32920FC67CE008B6659 /* SIMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIMainViewController.m; sourceTree = "<group>"; };
+		EF66F32B20FC67E4008B6659 /* PCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCMainViewController.h; sourceTree = "<group>"; };
+		EF66F32C20FC67E4008B6659 /* PCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +234,8 @@
 		EF5E8CD920F5BD0A00C4D207 /* metro */ = {
 			isa = PBXGroup;
 			children = (
+				EF66F30920FC64FE008B6659 /* Classes */,
+				EF66F30A20FC64FE008B6659 /* Tool */,
 				EF5AA93E20F5D99700329960 /* BaseClass */,
 				EF5AA92720F5D8CA00329960 /* Thirdparty */,
 				EF5E8CDA20F5BD0A00C4D207 /* AppDelegate.h */,
@@ -250,6 +267,190 @@
 				EF5E8D0020F5BD0F00C4D207 /* Info.plist */,
 			);
 			path = metroUITests;
+			sourceTree = "<group>";
+		};
+		EF66F30920FC64FE008B6659 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F31720FC66D7008B6659 /* SubwayConsultation */,
+				EF66F30B20FC66D7008B6659 /*  ArticlesFound */,
+				EF66F30F20FC66D7008B6659 /* CarCode */,
+				EF66F31B20FC66D7008B6659 /* SiteInformation */,
+				EF66F31320FC66D7008B6659 /* PersonalCenter */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF66F30A20FC64FE008B6659 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EF66F30B20FC66D7008B6659 /*  ArticlesFound */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F30C20FC66D7008B6659 /* Controller */,
+				EF66F30D20FC66D7008B6659 /* Model */,
+				EF66F30E20FC66D7008B6659 /* View */,
+			);
+			path = " ArticlesFound";
+			sourceTree = "<group>";
+		};
+		EF66F30C20FC66D7008B6659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F32220FC67A0008B6659 /* AFMainViewController.h */,
+				EF66F32320FC67A0008B6659 /* AFMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF66F30D20FC66D7008B6659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF66F30E20FC66D7008B6659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF66F30F20FC66D7008B6659 /* CarCode */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F31020FC66D7008B6659 /* Controller */,
+				EF66F31120FC66D7008B6659 /* Model */,
+				EF66F31220FC66D7008B6659 /* View */,
+			);
+			path = CarCode;
+			sourceTree = "<group>";
+		};
+		EF66F31020FC66D7008B6659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F32520FC67B2008B6659 /* CCMainViewController.h */,
+				EF66F32620FC67B2008B6659 /* CCMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF66F31120FC66D7008B6659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF66F31220FC66D7008B6659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF66F31320FC66D7008B6659 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F31420FC66D7008B6659 /* Controller */,
+				EF66F31520FC66D7008B6659 /* Model */,
+				EF66F31620FC66D7008B6659 /* View */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		EF66F31420FC66D7008B6659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F32B20FC67E4008B6659 /* PCMainViewController.h */,
+				EF66F32C20FC67E4008B6659 /* PCMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF66F31520FC66D7008B6659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF66F31620FC66D7008B6659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF66F31720FC66D7008B6659 /* SubwayConsultation */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F31820FC66D7008B6659 /* Controller */,
+				EF66F31920FC66D7008B6659 /* Model */,
+				EF66F31A20FC66D7008B6659 /* View */,
+			);
+			path = SubwayConsultation;
+			sourceTree = "<group>";
+		};
+		EF66F31820FC66D7008B6659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F31F20FC6774008B6659 /* SCMainViewController.h */,
+				EF66F32020FC6774008B6659 /* SCMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF66F31920FC66D7008B6659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF66F31A20FC66D7008B6659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF66F31B20FC66D7008B6659 /* SiteInformation */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F31C20FC66D7008B6659 /* Controller */,
+				EF66F31D20FC66D7008B6659 /* Model */,
+				EF66F31E20FC66D7008B6659 /* View */,
+			);
+			path = SiteInformation;
+			sourceTree = "<group>";
+		};
+		EF66F31C20FC66D7008B6659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF66F32820FC67CE008B6659 /* SIMainViewController.h */,
+				EF66F32920FC67CE008B6659 /* SIMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF66F31D20FC66D7008B6659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF66F31E20FC66D7008B6659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,16 +590,21 @@
 				EF5AA96420F5DA4300329960 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				EF5E8CDF20F5BD0A00C4D207 /* ViewController.m in Sources */,
 				EF5AA96B20F5DA4300329960 /* MASConstraint.m in Sources */,
+				EF66F32120FC6774008B6659 /* SCMainViewController.m in Sources */,
 				EF66F30820FC3249008B6659 /* MTTabBar.m in Sources */,
 				EF5AA94320F5D9D200329960 /* BaseViewController.m in Sources */,
 				EF5AA96620F5DA4300329960 /* MASCompositeConstraint.m in Sources */,
 				EF5AA96720F5DA4300329960 /* MASConstraintMaker.m in Sources */,
 				EF5AA96520F5DA4300329960 /* ViewController+MASAdditions.m in Sources */,
+				EF66F32720FC67B2008B6659 /* CCMainViewController.m in Sources */,
+				EF66F32D20FC67E4008B6659 /* PCMainViewController.m in Sources */,
 				EF5E8CEA20F5BD0F00C4D207 /* main.m in Sources */,
 				EF5AA96820F5DA4300329960 /* MASLayoutConstraint.m in Sources */,
+				EF66F32420FC67A0008B6659 /* AFMainViewController.m in Sources */,
 				EF5AA94420F5D9D200329960 /* BaseNavigationController.m in Sources */,
 				EF5AA96920F5DA4300329960 /* NSArray+MASAdditions.m in Sources */,
 				EF5735C120F71F5B002F92C0 /* BaseTabBarViewController.m in Sources */,
+				EF66F32A20FC67CE008B6659 /* SIMainViewController.m in Sources */,
 				EF5E8CDC20F5BD0A00C4D207 /* AppDelegate.m in Sources */,
 				EF5AA96C20F5DA4300329960 /* MASViewConstraint.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "MTTabBar.h"
+#import "Macro.h"
 #define AddButtonMargin 10
 
 @implementation MTTabBar
@@ -87,7 +88,7 @@
      for (UIView *btn in self.subviews) {//遍历TabBar的子控件
          if ([btn isKindOfClass:class]) {//如果是系统的UITabBarButton，那么就调整子控件位置，空出中间位置
              //每一个按钮的宽度等于TabBar的三分之一
-             btn.frame = CGRectMake(btn.frame.size.width * btnIndex, btn.frame.origin.y, self.frame.size.width / 5, btn.frame.size.height);
+             btn.frame = CGRectMake(SCREEN_WIDTH / 5.0 * btnIndex, btn.frame.origin.y, SCREEN_WIDTH / 5.0, btn.frame.size.height);
              btnIndex++;
              //如果索引是1(即“+”按钮)，直接让索引加一
              if (btnIndex == 2) {
